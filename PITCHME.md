@@ -19,7 +19,7 @@
 ---  
 #### Profile, token introspection
 
-----
+---
 #### Fine grained permissions
 
 
@@ -30,29 +30,29 @@
 #### Self-contained token, JWT 
 --- 
 #### Участники OAuth
-- User - Пользователь, владелец каких-то ресурсов  
-- Client - клиентское приложение, которое хочет получить доступ к ресурсу пользователя / к API 
-- Resource Server - Сервер, на котором размещены ресурсы (API работы с ресурсом)
-- Authorization Server - Сервер авторизации
+- *User* - Пользователь, владелец каких-то ресурсов  
+- *Client* - клиентское приложение, которое хочет получить доступ к ресурсу пользователя / к API 
+- *Resource Server* - Сервер, на котором размещены ресурсы (API работы с ресурсом)
+- *Authorization Server* - Сервер авторизации
 
 ---
 #### Пример - Google photos
-- User - Пользователь с аккаунтом на Goolge и фотографиями с Google Photos 
-- Client - Flickr, который хочет скачать фото с Google-аккаунта пользователя  
-- Resource Server - Google Photos API  
-- Authorization Server - Сервер авторизации Google 
+- *User* - Пользователь с аккаунтом на Goolge и фотографиями с Google Photos 
+- *Client* - Flickr, который хочет скачать фото с Google-аккаунта пользователя  
+- *Resource Server* - Google Photos API  
+- *Authorization Server* - Сервер авторизации Google 
 
 ---
 #### Пример 2 - Банк
-- User - Клиент Банка  
-- Client - Приложение домашней бухгалтерии, которому нужно получать остатки на счетах пользователя   
-- Resource Server - API работы со счетами /accounts  
-- Authorization Server - Сервер авторизации Банка 
+- *User* - Клиент Банка  
+- *Client* - Приложение домашней бухгалтерии, которому нужно получать остатки на счетах пользователя   
+- *Resource Server* - API работы со счетами /accounts  
+- *Authorization Server* - Сервер авторизации Банка 
 
 ---
 #### Типы клиентов 
-* Public - SPA, Native apps
-* Confidential - Обычный Web app с backend'ом
+- *Public* - SPA, Native apps
+- *Confidential* - Обычный Web app с backend'ом
   
 ---
 #### Client secret 
